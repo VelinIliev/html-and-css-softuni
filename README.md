@@ -8,6 +8,6 @@
 
 ## Built with
 
-- HTML & CSSS
+- HTML & CSS
 
 [SoftUni - HTML & CSS]: https://softuni.bg/trainings/3975/html-and-css-january-2023
