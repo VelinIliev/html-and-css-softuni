@@ -1,0 +1,22 @@
+body {
+    background-color: #eee;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+header, main, aside, footer {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: .4rem;
+    color: #000;
+}
+header, footer {
+    flex-basis: 100%;
+}
+main {
+    flex-grow: 8;
+}
+aside {
+    flex-grow: 2;
+}
