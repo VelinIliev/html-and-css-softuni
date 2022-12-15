@@ -7,45 +7,50 @@ html {
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 15vw;
-    max-height: 35rem;
-    border: 1px solid red;
+    height: 35rem;
+    padding: 80px;
 }
 span {
     display: flex;
     align-items: center;
-    /* width: 100px; */
     border: 1px solid black;
-    align-items: center;
+    padding: 20px 40px;
+    margin: 10px;
 }
 span:nth-child(11) {
     order:1;
-    background-color: green;
 }
 span:nth-child(2) {
-    background-color: green;
     order:2;
 }
 span:nth-child(12) {
-    background-color: green;
     order:3;
 }
-span:nth-child(8) {
-    background-color: green;
+span:nth-child(4) {
     order:4;
 }
-span:nth-child(9) {
-    background-color: green;
+span:nth-child(8) {
     order:5;
 }
-span:nth-child(6) {
-    background-color: green;
+span:nth-child(9) {
     order:6;
 }
-span:nth-child(5) {
-    background-color: green;
+span:nth-child(6) {
     order:7;
 }
 span:nth-child(5) {
-    background-color: green;
-    order:7;
+    order:8;
 }
+span:nth-child(1) {
+    order:9;
+}
+span:nth-child(3) {
+    order:10;
+}
+span:nth-child(7) {
+    order:11;
+}
+span:nth-child(10) {
+    order:12;
+}
+
