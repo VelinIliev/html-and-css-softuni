@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 99vw;
+    height: 99vh;
+    font-family: 'Mulish';
+    /* border: 1px solid red; */
+    background: url(./images/background.png) no-repeat;
+    background-size: cover;
+}
+
+fieldset {
+    box-sizing: border-box;
+    margin: 10vh auto;
+    width: 855px;
+    height: 615px;
+    border: none;
+    border-radius: 2em;
+    overflow: hidden;
+    background: url(./images/form-background.png) 0 0;
+    background-size: cover;
+}
+.left-side {
+    display: grid;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 370px;
+
+}
+h3 {
+    font-size: 1.6rem;
+    color: rgb(86, 86, 86);
+    text-align: center;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.half {
+    width: 45%;
+    /* border: 1px solid red; */
+}
+input {
+    height: 35px;
+    outline: none;
+    margin-top: -8px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.terms input, .terms p{
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.terms p{
+    position: relative;
+    top: -12px;
+}
+button {
+    width: 40%;
+    margin: auto;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(135, 23, 23);
+    color: white;
+}
