@@ -27,7 +27,6 @@ fieldset {
 .left-side {
     display: grid;
     flex-direction: row;
-    /* border: 1px solid red; */
     margin-left: 40px;
     margin-top: 40px;
     width: 370px;
@@ -46,7 +45,6 @@ h3 {
 }
 .half {
     width: 45%;
-    /* border: 1px solid red; */
 }
 input {
     height: 35px;
