@@ -1,0 +1,164 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: #FFF;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)), url(./image/computer-main.jpg) no-repeat 0px -100px;
+    background-size: cover;
+}
+nav a {
+    color: #FFF;
+    font-size: 1rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 40px;
+}
+
+header h1, header p, header a {
+    text-shadow: 2px 2px 4px black;
+    color: #FFF;
+}
+header h1 {
+    margin-top: 3rem;
+}
+header p {
+    width: 50%;
+}
+header button {
+    margin-top: 2rem ;
+    padding: .5rem 1rem;
+    background-color:  rgba(0, 208, 142, 1);
+    color: #FFF;
+    border: none;
+    border-radius: 7px;
+}
+
+header button:hover {
+    background-color:  rgba(0, 208, 142, 0);
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+header>a {
+    margin-top: 3rem;
+}
+.hustle {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 1px solid red; */
+}
+h2{
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+.hustle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-container {
+    height: 310px;
+}
+.what {
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    padding-left: 2em; 
+    text-indent: -2em;
+    margin-top: .5rem;
+}
+.fa-circle-check {
+    color: rgba(0, 208, 142, 1);
+}
+.case {
+    text-align: center;
+    
+}
+.item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    /* border: 1px solid red; */
+}
+.item p {
+    margin-top: 0;
+    color: rgba(0, 208, 142, 1);
+}
+.item {
+    width: 80px;
+    /* border: 1px solid red; */
+}
+.case ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 25px;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+}
+.case ul li {
+    padding-left: 0em; 
+    text-indent: 0em;
+    margin-left: 1rem ;
+    padding-left: 0px;
+}
+.questions {
+    box-sizing: border-box;
+    background-color: rgb(75, 202, 162, .5);
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(75, 202, 162, 0);;
+}
+.questions ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10px;
+   
+}
+.questions ul li {
+    width: 30%;
+    text-overflow:ellipsis;
+    text-indent: 0em;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+h3 {
+    font-size: .9rem;
+}
+.questions ul li p {
+    font-size: .8rem;
+}
+.questions h2 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.questions a {
+    color: #000;
+}
