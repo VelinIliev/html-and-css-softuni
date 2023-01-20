@@ -1,0 +1,204 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    font-family: Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.brand-logo {
+    position: absolute;
+    box-sizing: border-box;
+    width: 10rem;
+    height: 9rem;
+    left: 2rem;
+    top: 1rem;
+    padding: 1rem;
+    background: url(./image/logo.png) no-repeat center,
+                linear-gradient(0deg, rgb(151, 102, 10), rgb(206, 173, 60));
+                
+    background-size: 60%;
+    box-shadow: 2px 2px 6px grey;
+    /* background-color: red; */
+}
+.wrapper ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-right: 1rem;
+}
+i {
+    font-size: 1.8rem;
+    
+}
+.top-nav li {
+    box-sizing: border-box;
+    width: 110px;
+    height: 80px;
+    padding: 1rem;
+    color: gray;
+    margin-right: 1rem;
+}
+.top-nav p {
+    font-size: .6rem;
+}
+.top-nav li:hover {
+    cursor: pointer;
+    background-color: rgb(205, 140, 18);
+    color: #FFF;
+}
+
+
+a {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: gray;
+    /* margin-left: 1rem; */
+}
+a:hover {
+    color: white;
+    background-color: rgb(205, 140, 18);
+}
+.carroussel img {
+    width: 100%;
+}
+.info {
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+    width: 400px;
+    padding: 0 1rem 2rem 1rem;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+}
+.info button {
+    padding: .6rem;
+    font-weight: bold;
+    color: #f1a006;
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+.info button:hover {
+    background-color: #FFF;
+    cursor: pointer;
+}
+.text, .subscribe {
+    margin: -4px;
+    /* height: 100px; */
+    padding: 2rem;
+    background: linear-gradient(0deg, rgb(151, 102, 10), rgb(206, 173, 60));
+}
+.text h2 {
+    margin-top: 0;
+    color: #FFF;
+    /* padding: 1rem; */
+    text-align: center;
+}
+.text ul {
+    width: 35%;
+    margin: 0 auto;
+    color: #FFF;
+    list-style-type: none;
+}
+.text ul li {
+    margin: 1rem 0;
+}
+.fa-hand-point-right{
+    color: #FFF;
+    font-size: 1.1rem;
+}
+.button-wrapper {
+    margin-top: 2rem; 
+}
+.buy-now {
+    display: block;
+    margin: 0 auto;
+    color: #FFF;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    padding: .8rem 1.8rem;
+}
+.buy-now:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    color: #f1a006;;
+}
+.images {
+    text-align: center;
+    padding: 2rem 10rem;
+    color: gray
+}
+.images h1{
+    font-weight: 300;
+    font-size: 2rem;
+}
+.images .sub-heading {
+    margin-top: -1rem;
+}
+.images ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.images ul li {
+    width: 120px;
+    margin-left: 1rem;
+    /* height: 100px; */
+    
+}
+.images ul li img {
+    width: 120px;
+    height: 120px;
+    object-fit: scale-down;
+    border-radius: 100%;
+    padding: .15rem;
+    border: 1px solid black;
+}
+.images ul li p{
+    font-size: .5rem;
+    color: grey;
+}
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    padding: 1rem 2rem;
+}
+.subscribe button {
+    height: 2.5rem;
+    color: #FFF;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    padding: 0 1rem;
+}
+.subscribe button:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    color: #f1a006;;
+}
+.subscribe h3 {
+    margin: 0;
+    padding: 0;
+}
+.subscribe p {
+    margin: 0.1rem 0;
+    padding: 0;
+    font-size: .8rem;
+}
+footer {
+    text-align: center;
+    font-size: .8rem;
+    color: gray;
+}

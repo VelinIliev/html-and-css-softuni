@@ -1,0 +1,32 @@
+@media (max-width: 800px) {
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-options {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trainings {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu p {
+        margin-left: 2rem;
+    }
+    .instructors-pic {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .getInTouch {
+        display: block; 
+    }
+    .wrapper {
+        flex-wrap: wrap;
+    }
+    .site-footer .about {
+        flex: 0 0 100%;
+    }
+}
