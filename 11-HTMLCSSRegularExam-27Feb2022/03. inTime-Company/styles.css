@@ -1,0 +1,190 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    /* border: 1px solid red; */
+}
+nav span {
+    color: #008cba;
+}
+.logo {
+    font-size: 1.5rem;
+    margin-left: 60px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+    margin-left: 30px;
+    border-bottom: 4px solid transparent;
+}
+nav ul li:hover {
+    border-bottom: 4px solid #008cba;
+    cursor: pointer;
+}
+#landing-page {
+    position: relative;
+    height: 400px;
+    background: url(./images/slide2.jpg);
+    background-size: cover;
+}
+#annonce{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 270px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    
+}
+#annonce h1 {
+    font-weight: 400;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+#annonce button {
+    margin-top: 10px;
+    padding: 7px 20px;
+    color: #FFF;
+    background-color: #008cba;
+    border: none;
+    border-radius: 20px;
+}
+#annonce button {
+    cursor: pointer;
+}
+#welcome{
+    text-align: center;
+    padding: 0 100px;
+}
+.line {
+    width: 10%;
+    height: 4px;
+    margin: -10px auto 0 auto;
+}
+#welcome .line {
+    background-color: #008cba;
+}
+#welcome button {
+    padding: 7px 15px;
+    color: #FFF;
+    background-color: rgb(62, 62, 62);
+    border: none;
+    border-radius: 10px;
+}
+#services {
+    text-align: center;
+    padding: 0 100px;
+    background-color: lightgray;
+}
+#services h2 {
+    padding-top: 20px;
+}
+#services .line {
+    background-color: rgb(62, 62, 62);
+}
+#services article {
+    display: inline-block;
+    margin: 20px 5px;
+    width: 200px;
+    background-color: #FFF;
+}
+#services article img{
+    width: 100%;
+}
+#services article h3{
+    margin: 7px 15px;
+    font-size: .8rem;
+}
+#services article p{
+    margin: 10px 15px;
+    font-size: .7rem;
+}
+#services article button {
+    padding: 7px 15px;
+    margin: 7px auto 20px auto ;
+    color: #FFF;
+    background-color:  rgb(62, 62, 62);
+    border: none;
+}
+#newsletter {
+    color: #FFF;
+    background-color: rgb(62, 62, 62);
+    text-align: center;
+}
+#newsletter .line {
+    margin: 10px auto 0 auto;
+    background-color: #FFF;
+}
+#newsletter h2 {
+    margin: 0;
+    padding-top: 20px;
+}
+#newsletter p {
+    font-size: .8rem;
+}
+#newsletter input {
+    box-sizing: border-box;
+    width: 280px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, .1);
+}
+#newsletter button {
+    box-sizing: border-box;
+    height: 30px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    padding: 0px 20px;
+}
+#summary {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    color: #FFF;
+}
+#summary h4{
+    font-size: .8rem;
+}
+#summary li{
+    font-size: .7rem;
+    margin-top: 10px;
+}
+#summary ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #FFF
+}
+.copyright {
+    text-align: center;
+    font-size: .8rem;
+    background-color: rgb(4, 4, 4);
+    padding: 10px;
+    color: #FFF;
+}
+.copyright span {
+    color: #008cba;;
+}
