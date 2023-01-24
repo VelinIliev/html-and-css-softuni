@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html, body {
+    border: 0;
+    margin: 0;
+}
+body {
+    width: 99vw;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    /* border: 1px solid red; */
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    margin-left: 30px;
+}
+nav ul li a{
+    color: black;
+}
+.landing-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 60px 80px;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: url(./images/header-bg.png) no-repeat center bottom;
+    background-size: cover;
+}
+.landing-page img {
+    position: relative;
+    left: -130px;
+    width: 500px;
+}
+.landing-page h1 {
+    font-size: 3rem;
+    color: #FFF;
+    line-height: 1.2;
+}
+.landing-page h1 span {
+    
+    font-weight: 600;
+}
+.left-side, .right-side {
+    width: 40%;
+}
+.landing-page p {
+    color: #FFF;
+    font-size: .8rem;
+}
+.landing-page button {
+    color: #f04930;
+    border: none;
+    background-color: #FFF;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+}
+.services {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.services h2 {
+    font-weight: bold;
+}
+.services h2 ~ p {
+    width: 50%;
+}
+.services p {
+    
+    margin-top: 0;
+    font-size: .8rem;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-top: 30px;
+}
+.container article {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    margin: .5rem;
+    border: 1px solid #f04930;
+    border-radius: 10px;
+}
+.image-container {
+    box-sizing: border-box;
+    background: url(./images/service-bg.png) no-repeat center center;
+    background-size: contain;
+    padding: 10px 30px;
+    /* border: 1px solid #f04930; */
+}
+.services h3 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.services article p{
+    font-size: .7rem;
+}
+.we-care {
+    box-sizing: border-box;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we-care .left-side, .we-care .right-side {
+    width: 30%;
+}
+.we-care .left-side img{
+    float: right;
+    margin-right: 20px;
+}
+.we-care .left-side img {
+    height: 300px;
+}
+.we-care h2 {
+    line-height: 1.3;
+}
+.we-care h2 span{
+    font-weight: bold;
+}
+.we-care p {
+    font-size: .8rem;
+}
+.we-care button {
+    color: #FFF;
+    border: none;
+    background-color: #f04930;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+.why {
+    height: 250px;
+    background: url(./images/cats-bg.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.why {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 50px;
+    color: #FFF;
+}
+.why h2 {
+    font-weight: bold;
+}
+.why p {
+    margin: 10px auto 20px auto;
+    width: 50%;
+    font-size: .7rem;
+}
+.why button {
+    border: none;
+    padding: 7px 15px;
+    color: #f04930;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.why span {
+    margin-left: 10px;
+    font-size: .7rem;
+    color: #FFF
+}
+footer {
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer h4{
+    font-weight: bold;
+}
+footer li, footer p{
+    font-size: .7rem;
+}
+.footer-container {
+    width: 200px;
+    margin-left: 30px;
+}
+.footer-container img {
+    width: 100px;
+}
+a { 
+    color: #000;
+}
