@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 90vw;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    color: #2e2e2e;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.dropbtn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px;
+}
+.dropbtn ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20px;
+    height: 17px;
+    margin: 0 10px;
+    padding: 0;
+    text-indent: 0;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+.dropbtn ul li {
+    width: 20px;
+    height: 3px;
+    background-color: #2e2e2e;
+    border-radius: 5px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #999
+}
+header {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    background: #efefef;
+    background-size: contain;
+    /* border: 1px solid green; */
+}
+.template{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    background: url(./images/hero.png) no-repeat right bottom;
+    background-size: contain;
+    /* border: 1px solid red; */
+}
+.template p {
+    width: 40%;
+}
+h1 {
+    font-weight: 100;
+    font-size: 2rem;
+}
+.bold {
+    font-weight: bold;
+}
+.vertical-line {
+    height: 60px;
+    border-left: 1px solid #2e2e2e;
+}
+#photographer {
+    margin: 20px 0;
+    /* border: 1px solid red; */
+}
+.image-container {
+    width: 100%;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+}
+.top {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    background: #efefef;
+}
+.top p {
+    font-size: .8rem;
+    padding-right: 100px;
+}
+.left , .right {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.left img {
+    width: 70%;
+}
+.social-networks {
+    padding: 0;
+    margin: 0;
+    
+}
+.social-networks a{
+    text-decoration: none;
+    color: #717171;
+}
+.social-networks li{
+    display: inline-block;
+    list-style: none;
+    text-indent: 0;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    
+
+}
+
+.horizontal-line {
+    display: inline-block;
+    vertical-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 1px;
+    background-color: #2e2e2e;
+}
+.image-container {
+    margin-top: 20px;
+}
+#Camera {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    background: #efefef;
+}
+.right img {
+    width: 100%;
+}
+.left p {
+    width: 90%;
+    font-size: .8rem;
+}
+.caroussel {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #efefef;
+}
+/* .caroussel img{
+    width: 200px;
+} */
+.caroussel img:nth-child(1), .caroussel img:nth-child(3){
+    width: 300px;
+    height: 200px;
+}
+.caroussel img:nth-child(2){
+    position: absolute;
+    margin: auto;
+    width: 350px;
+}
+
+.contacts{
+    box-sizing: border-box;
+    height: 450px;
+    margin-top: 20px;
+    padding: 2rem;
+    text-align: center;
+    background: #efefef;
+}
+.contacts p {
+    padding: 0 7rem;
+} 
+form {
+    width: 400px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+input, textarea {
+    box-sizing: border-box;
+    width: 170px;
+    height: 25px;
+    margin: 10px;
+    background-color:  transparent;
+    border: 1px solid #2e2e2e;
+    padding-left: 10px ;
+}
+.message {
+    /* border: 1px solid red; */
+    width: 365px;
+    height: 80px;
+}
+.contacts button {
+    width: 365px;
+    padding: 8px;
+    background-color: #2e2e2e;;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+}
+footer {
+    text-align: center;
+    height: 30px;
+    background: #efefef;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+footer p {
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: 0;
+}

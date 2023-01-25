@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: #555;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 650px;
+    height: 300px;
+    background: url(./images/img.png) no-repeat right bottom,
+                #f6f8f9;
+    background-size: contain;
+    padding: 3rem;
+}
+.slogan {
+    font-size: .6rem;
+}
+h1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: .5rem;
+}
+p {
+    width: 50%;
+    font-size: .8rem;
+}
+main button {
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.filled {
+    background-color: #786eff;
+    border: 1px solid #786eff;
+    color: #FFF;
+}
+.not-filled {
+    background-color: none;
+}
