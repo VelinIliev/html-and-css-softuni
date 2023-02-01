@@ -11,6 +11,7 @@ body {
     /* border: 1px solid red; */
     background: url(./images/background.png) no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 fieldset {
@@ -26,10 +27,9 @@ fieldset {
 }
 .left-side {
     display: grid;
-    flex-direction: row;
     margin-left: 40px;
     margin-top: 40px;
-    width: 370px;
+    width: 50%;
 
 }
 h3 {
