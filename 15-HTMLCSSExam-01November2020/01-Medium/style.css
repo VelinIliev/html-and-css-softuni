@@ -1,0 +1,65 @@
+p, button, h3  {
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    font-family: Georgia, serif;
+}
+body {
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    width: 700px;
+}
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: .5rem;
+}
+header p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.wrapper {
+    display: flex;
+    margin-bottom: 3rem;
+}
+.left-side, .right-side {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.left-side {
+    position: relative;
+}
+button {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    /* margin: 0 auto; */
+}
+h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.right-side p {
+    font-size: .9rem;
+}
+.right-side span {
+    background-color:  #20ae8857;
+} 
+button {
+    padding: 6px 46px;
+    background-color: #09a77c;
+    border: none;
+    color: #FFF;
+}
+.bottom-line {
+    width: 40%;
+    height: 2px;
+    background-color: #CCC;
+    margin: 0 auto;
+}

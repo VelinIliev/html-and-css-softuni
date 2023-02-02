@@ -1,0 +1,34 @@
+@media (max-width: 600px) {
+    .banner {
+        padding: 1rem 0 0.05rem 0;
+    }
+    .banner h2 {
+        width: 95%;
+    }
+    .wrapper.special {
+        padding: 0;
+    }
+    .wrapper > .inner {
+        width: 100%;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature {
+        width: 90%;
+    }
+    .wrapper > .inner.narrow {
+        width: 100%;
+        padding: 1rem;
+    }
+    .grid-form {
+        flex-direction: column;
+    }
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+    .footer {
+        padding: 2rem 0 1rem 0;
+    }
+}   
