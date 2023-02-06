@@ -1,0 +1,9 @@
+/* TODO: Add media queries */
+@media (max-width: 600px) {
+    .thumbnails {
+        flex-direction: column;
+    }
+    .thumbnails > div {
+        width: 100%;
+    }
+}
