@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+header {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+.logo {
+    display: inline-block;
+    margin: auto;
+}
+.logo img {
+    margin: auto;
+}
+main {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    width: 50%;
+    margin-right: 2rem;
+}
+.wrapper h2 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-bottom: 1.6rem;
+}
+.wrapper>p {
+    margin-bottom: 2.1rem;
+}
+.wrapper ul li {
+    display: flex;
+    align-items: center;
+}
+.wrapper ul li .image img{
+    width: 70px;
+}
+.wrapper ul li {
+    margin-top: 1rem;
+}
