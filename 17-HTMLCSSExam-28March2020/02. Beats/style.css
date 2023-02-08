@@ -1,0 +1,180 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+}
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #777;
+}
+nav {
+    padding: 1rem 5rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-weight: 500;   
+}
+.landing, .products {
+    box-sizing: border-box;
+    display: flex;
+    height: 500px;
+    gap: 1rem;
+}
+.landing img, .products img, .give-life img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.image-wrapper {
+    width: 50%;
+}
+.landing h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.landing p, .products p {
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+button {
+    display: inline-block;
+    padding: 6px 16px;
+    width: 8rem;
+    color: #FFF;
+    background-color: #f00;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+button:hover {
+    cursor: pointer;
+}
+.products h3 {
+    width: 320px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 3.2rem;
+    margin-bottom: 0;
+}
+.products h4 {
+    width: 320px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: .9rem;
+    text-align: right;
+    margin-top: -.8rem;
+    margin-bottom: 2rem;
+}
+.products .bold {
+    font-weight: 700;
+}
+.products .description button {
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+.price {
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+    vertical-align: middle;
+    /* border: 1px solid blue; */
+}
+.try {
+    box-sizing: border-box;
+    padding: 1.5rem;
+    height: 200px;
+    text-align: center;
+    color: #FFF;
+    background-color: #777;
+}
+.try img {
+    width: 90px;
+    margin-bottom: 1.2rem;
+}
+.try h2, .try img {
+    display: inline-block;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+}
+.try h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-left: 1.5rem;
+}
+.try h2 .bold {
+    font-weight: 700;
+}
+.try a {
+    padding: 0 0 .3rem 0;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #FFF;
+}
+.give-life {
+    display: flex;
+    height: 500px;
+}
+.give-life img {
+    object-fit: cover;
+}
+.title {
+    display: flex;
+    width: 50%;
+    padding-left: 2rem;
+    background-color: #CCC;
+}
+.title .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title h1 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 6rem;
+    line-height: 1.2;
+}
+.title h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: -3px;
+    padding-left: .3rem;
+}
+.title .red {
+    color: #f00;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wraper, .left{
+    width: 50%;
+}
+.wraper {
+    padding: 1rem 2rem;
+}
+.wraper img {
+    width: 1001;
+    height: 100%;
+    object-fit: contain;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+}
