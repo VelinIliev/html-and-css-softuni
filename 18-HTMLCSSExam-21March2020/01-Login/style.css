@@ -1,0 +1,65 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), 
+                url(./image.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.login-form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+}
+button {
+    display: block;
+    /* width: 150px; */
+    background-color: #d41872;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    padding: 8px 56px;
+    border-radius: 26px;
+    margin: auto;
+}
+.username, .password {
+    border-bottom: 1px solid #AAA;
+    display: flex;
+    margin-bottom: 2rem;
+}
+i {
+    width: 25%;
+    color: #AAA;
+    font-size: 22px;
+    padding-top: 6px ;
+}
+input {
+    width: 70%;
+    position: relative;
+    padding: .5rem;
+    border: none;
+
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+input::placeholder {
+    font-size: 18px;
+    color: #666;
+}
