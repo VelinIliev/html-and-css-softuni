@@ -1,0 +1,166 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+body {
+    font-family: 'Gelasio', serif;
+    background: url(./Requirements-and-Resources/Media/background.jpg) no-repeat;
+    /* background-size: cover; */
+    color: #564938;
+}
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e3de;
+}
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-right: 4rem;
+    color: #564938;
+}
+header button{
+    border: none;
+    color: #FFF;
+    margin-right: 1rem;
+    background-color: #564938;
+    padding: .5rem 1rem;
+}
+button:hover {
+    cursor: pointer;
+}
+.hero {
+    height: 600px;
+    background: url(./Requirements-and-Resources/Media/craving.jpg) center center;
+    background-size: cover;
+    text-align: center;
+}
+.hero h1 {
+    color: #FFF;
+    font-size: 4rem;
+    padding-top: 9rem;
+    text-shadow: 0px 5px 10px #000;
+}
+.hero .input {
+    width: 450px;
+    height: 40px;
+    background-color: #FFF;
+    margin: auto;
+    vertical-align: center;
+    background-color: rgba(255, 255, 255, .7);
+}
+.hero input {
+    height: 40px;
+    width: 400px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+}
+.hero input:focus {
+    border: none;
+    outline: none;
+}
+.hero span {
+    vertical-align: center;
+    margin-left: 10px;
+}
+
+main {
+    padding: 10rem 10rem 0 10rem;
+    text-align: center;
+}
+article {
+    display: flex;
+    background-color: #e6e3de;
+    margin-bottom: 5rem;
+    min-width: 990px;
+}
+main article:nth-child(2) {
+    flex-direction: row-reverse;
+}
+article .image {
+    width: 60%;
+}
+article .description {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article .description h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+article .description p{
+    font-size: 2.7rem;
+    text-align: center;
+}
+article .description button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #564938;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 1.5rem;
+}
+main h3 {
+    display: inline-block;
+    margin: 0 auto 3rem auto;
+    padding: .5rem 3rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, .7);  
+}
+main ul {
+    box-sizing: border-box;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    gap: 8rem;
+}
+main ul li{
+    width: 250px;
+    background-color: rgba(255, 255, 255, .7); 
+    font-size: 1.5rem;
+    font-style: italic;
+}
+main ul li p {
+    padding: 1rem;
+}
+main>button {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 8px 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    color: #FFF;
+    background-color: #d94b33;
+}
+
+footer {
+    padding: 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .7); 
+    font-size: 1.5rem;
+}
+footer ul {
+    display: flex;
+    gap: 1rem;
+}
+footer ul li {
+    display: block;
+    padding-right: 1rem;
+    border-right: 1px solid #000;
+}
+footer ul li:last-child {
+    border: none;
+    padding-right: 0rem;
+}
