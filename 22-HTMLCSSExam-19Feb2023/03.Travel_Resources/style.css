@@ -1,0 +1,161 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+    background-size: cover;
+}
+/* GLOBAL  */
+button:hover{
+    cursor: pointer;
+}
+.filled {
+    color: #FFF;
+    background-color: #370511;
+    padding: .2rem 1.5rem;
+    border-radius: 1rem;
+}
+.notfilled {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    margin-right: 2.5rem;
+}
+
+/* HEADER SECTION */
+
+header {
+    height: 100vh;
+    background: url(./images/landing-photo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* NAVIGATION */
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #370511;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* HERO SECTION */
+
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: .6rem;
+}
+.hero h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+.hero p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+/* GALERRY SECTION */
+.places {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.places h2 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+.places>p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+} 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+.gallery .image-container {
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery article {
+    border-radius: .8rem;
+    overflow: hidden;
+    text-align: center;
+}
+article h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+article p {
+    margin-bottom: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2rem 0;
+}
+footer a{
+    color: #FFF;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container .logo{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.footer-container ul li a{
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.footer-container .follow {
+    font-size: 1.2rem;
+}
+.footer-container i {
+    font-size: 1.6rem;
+    margin-top: .5rem;
+    margin-right: 1.3rem;
+}
